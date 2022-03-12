@@ -18,5 +18,27 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
        <img src="imagens/foto-g.png" alt="imagem flexível"> <!-- maior-->
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!-- tag:"audio" -->
+    <!-- Deve selecionar o local da mídia dentro de src="".
+         controls: E utilizado para dar o controle de reprodução ao usuário.
+         autoplay: E utilizdo para assim que o site for acessado, deve começar a reproduzir(depende muito do browser utilizado).
+         loop: E utilizado para fazer o looping do áudio. -->
+    <audio src="midia/Beethoven-joshpan.mp3" controls autoplay loop></audio>
+    
+    <!-- Outros tipos de mídia: MP3, OGG e WAV -->
+    <audio preload="metadata"> 
+        <!-- preload="" 
+            auto: espera o arquivo está completamente carregado para reproduzir
+            metadata: assim que o nome, formato e tamanho for carregado, ele já reproduz.
+            none: não espera carregar nada
+        -->
+        <source src="midia/DustyRhymes.mp3" type="audio/mpeg">
+        <source src="midia/DustyRhymes.ogg" type="audio/ogg">
+        <source src="midia/DustyRhymes.wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/DustyRhymes.mp3">Clique aqui para baixar o arquivo MP3</a></p>
 </body>
 </html>
