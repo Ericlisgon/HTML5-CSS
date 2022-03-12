@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <!-- ol significa listas ordenadas -->
+    <ol>
+        <!-- li significa listas de items -->
+        <li>Acordas</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+                                    <!-- lt é igual o sinal de menor (<) e gt é sinal de maior (>) -->
+        <li>Podemos adicionar um item na lista sem necessidade de fechar com o &lt;li&gt;
+    </ol>
+
+    <!-- ol significa listas ordenadas -->
+    <!-- tipos de formatação para listas -->
+    <ol type="1" start="4">
+        <!-- li significa listas de items -->
+        <li>Acordas</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+                                <!-- lt é igual o sinal de menor (<) e gt é sinal de maior (>) -->
+        <li>Podemos adicionar um item na lista sem necessidade de fechar com o &lt;li&gt;
+        <li>Ir para a faculdade
+    </ol>
+
+
+    <h2>Listas não ordenadas</h2>
+    <!-- ul siginifica listas não ordenadas -->
+    <ul type=""> <!-- type tem as seguintes opççoes: disc(padrão), circle, square-->
+        <li>Pão</li>
+        <li>Feijão</li>
+        <li>Arroz</li>
+        <li>batata</li>
+        <li>Carne de panela
+    </ul>
+
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a"> <!-- podemos utilizar ol dentro de uma li -->
+            <li>Cliper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4">
+            <li>JAVA</li>
+            <li>C#</li>
+            <li>HTML5, CSS3 e JavaScript</li>
+        </ol>
+    </ol>
+
+    <!-- implementando listas dentro de listas -->
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+        <li>Xbox</li>
+        <ul type="square">
+            <li>GTA5</li>
+        </ul>
+    </ol>
+
+    <!-- dl siginifica listas de definições -->
+    <h2>Lista de definições</h2>
+    <dl>
+        <!-- dt para termo -->
+        <dt>Termo</dt>
+        <!-- dd para descrição -->
+        <dd>Descrição</dd>
+
+        <!-- utilização -->
+        <dt>HTML</dt>
+        <dd>Línguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Línguagem de marcação para a criação do designer de um site.</dd>
+        <dt>javaScript</dt>
+        <dd>Línguagem de programação para a criação do interatividade de um site.</dd>
+    </dl>
+
+</body>
+</html>

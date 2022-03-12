@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <!-- Usando a tag A para inserir site externo no meio do texto. -->
+    <p>Você pode acessar o meu <a href="https://github.com/Ericlisgon">repositório público no GitHub</a></p>
+    
+    <!-- Para criar uma nova janela no navegador, para o usuário poder acessar o site extreno -->
+    <!-- target="_blank" é para abrir uma janela vazia.
+         rel="external" serve para saber que o link que esta acessando é externo. -->
+    <p>Você pode acessar o meu <a href="https://github.com/Ericlisgon" target="_blank" rel="external">
+        repositório público no GitHub</a></p>
+    
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site, se você quiser acessar também a minha 
+        <!-- para identificar que é uma página interna, inserir rel="next". -->
+        <a href="pag002.html" rel="next">segunda página</a></p>
+    
+    <p>Você também pode acessar a 
+        <!-- target="_self" significa que o site que o usuário vai acessar é na mesma aba. -->
+        <!-- para voltar uma página, deve colocar ../ -->
+        <a href="noticias/pag003.html" target="_self" rel="next">nossa terceira página</a></p>
+    
+    
+    <h1>Links para download</h1>
+    <ul>
+        <!-- Existe duas formas para baixar arquivos -->
+        <!-- 1- escrevendo o parâmetro download="NOME DO ARQUIVO EM PDF" -->
+        <li><a href="livros/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf">Baixar o livro em PDF</a></li>
+        <!-- 2- definindo o tipo do arquivo type="application/pdf" -->
+        <li><a href="livros/10 - Ligações em toda parte.zip" type="application/pdf">Baixar o livro em ZIP</a></li>
+    </ul>
+</body>
+</html>
