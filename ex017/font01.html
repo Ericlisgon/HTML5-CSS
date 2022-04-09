@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm - centimetro, mm - milimetro, in - polegada, px - pixel, pp - ponto, pc - paica.
+            
+            Medidas Relativas
+            em - medida relativa ao tamanho atual da fonte,  
+            ex - tamanho da altura x da fonte, 
+            rem - tipo EM mas relativo ao root que está configurado ao body,
+            vw - vue witdh(largura da vuw port:"tamanho da tela"),
+            vh - altura da vue port
+            */
+            /*
+            Vamos utilizar as recomendações da W3C
+            Recomendação oficial, utilizar PX ou EM.
+            */
+            font-size: 1em;
+
+            /*Peso da fonte*/
+            font-weight: lighter;/*Opções: lighter, normal, bold, bolder ou usar o peso númerico entre 100 até 900*/
+            
+            /*Estilo de fontes*/
+            font-style: italic;
+
+            /*Decoração de texto*/
+            text-decoration: underline;
+
+            /*Não são todas tipografias que aceitam todos esses estilos.*/
+        }
+
+        h1 {
+            /*
+            ------------ shorthand font -----------
+            font-style -> font-weight -> font-family
+            */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quod, iure consequuntur asperiores tempora impedit atque totam distinctio culpa, dolorum sequi voluptates. Pariatur neque repudiandae officiis architecto ipsam, quibusdam animi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint possimus eum, in consequuntur officiis, porro voluptas sed illo quasi, quibusdam tempora temporibus maxime. Accusantium, iusto! Quae, minus, molestias quasi hic mollitia asperiores maiores voluptas nulla facilis eaque incidunt possimus, ad labore? Sunt accusamus ea perspiciatis tempore distinctio eaque nam quidem veritatis, illo fugiat quaerat consequatur iusto quis deserunt dolores vel ullam eos cum odio aperiam pariatur dignissimos quibusdam. Molestias quos voluptate sapiente. Harum est inventore cupiditate quia cumque suscipit dolorum dolore qui. Temporibus velit maiores asperiores vitae aperiam sapiente! Tempora doloribus quis laudantium molestias rem ratione sapiente ab deleniti, harum a voluptas ullam magnam omnis sed maxime vitae totam ducimus similique minima. Quaerat eos, optio fuga hic quos adipisci debitis earum repellat facilis. Dicta ullam perspiciatis illo fuga, temporibus quas voluptatibus adipisci. Deserunt explicabo necessitatibus facilis quod, fuga corporis, sit commodi recusandae consequatur voluptate repudiandae quo assumenda incidunt doloribus, iste accusamus culpa. At harum alias dolores nobis quis dolore repellendus quibusdam magni.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aut quisquam amet error reiciendis autem provident rerum impedit nulla deserunt, itaque atque placeat nam eos hic voluptatem debitis odit unde blanditiis. Eum facilis ab error maiores, voluptates illum blanditiis animi aut tenetur alias similique possimus voluptatibus sapiente minima, nihil sint! Rem earum eaque hic praesentium vero, soluta repellendus sequi obcaecati sit in nemo consequuntur amet qui sint voluptatem nobis vel consequatur odit cumque porro. Necessitatibus dolores in molestias, maxime nostrum quas obcaecati, facere ipsum eius saepe amet. Quod laboriosam unde itaque reprehenderit recusandae, asperiores possimus, quia illum odit eligendi delectus iusto, amet cumque voluptatum blanditiis officiis rem aspernatur! Optio fugiat, accusamus libero quia maiores quam consequatur voluptates obcaecati aperiam tempora hic necessitatibus harum at quaerat, esse sapiente, veritatis ad praesentium suscipit ratione! Cum id nihil excepturi repellat quisquam, neque nemo voluptatum recusandae eaque impedit, at quis, autem officiis dolores aliquid minus. Exercitationem ut, sit corrupti magni rem recusandae neque deleniti architecto ullam repellendus harum, vel corporis. Ex repudiandae maxime iste itaque architecto. Qui repellat unde similique ab saepe repellendus consectetur sapiente, doloremque harum numquam in id maiores delectus laudantium earum beatae blanditiis! Placeat possimus eligendi odit quia ipsum voluptas aut explicabo aliquam, fugit sequi minus earum repellendus voluptates! Excepturi, ipsam.</p>
+</body>
+</html>
