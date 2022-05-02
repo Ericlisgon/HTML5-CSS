@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Voos</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cookie&family=Indie+Flower&display=swap');
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        .fundo{
+            display: flex;
+            justify-content: center;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            width: 900px;
+        }
+
+        h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 50px;
+            text-align: center;
+
+        }
+        table {
+            border-style: hidden;
+        }
+
+        th {
+            background-color: #10403B;
+            color: black;
+            font-family: 'Allura', cursive;
+            font-size: 1rem;
+        }
+
+        fieldset {
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            background-color: #bfbfbf5e;
+            border-radius: 5px;
+        }
+
+        .titulo {
+            background-color: #10403B;
+            color: black;
+            border-radius: 50px;
+            width: 600px;
+            padding: 3px;
+        }
+
+        .cor1 {
+            background-color: #8AA6A3;
+        }
+
+        .cor2 {
+            background-color: #637371;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fundo">
+        <fieldset>
+            <legend><div class="titulo"><h1>Aeroporto de Guarulhos</h1></div></legend>
+            <table>
+                <tr>
+                    <th><h2>DESTINO</h2></th>
+                    <th><h2>CUSTO R$</h2></th>
+                    <th><h2>TEMPO DE VOO</h2></th>
+                </tr>
+                
+                <tr class="cor1">
+                    <td><h3>Fortaleza - CE</h3></td>
+                    <td><h3>563,62</h3></td>
+                    <td><h3>03:20hs</h3></td>
+                </tr>
+                <tr class="cor2">
+                    <td><h3>Natal - RN</h3></td>
+                    <td><h3>658,63</h3></td>
+                    <td><h3>02:50hs</h3></td>
+                </tr>
+                <tr class="cor1">
+                    <td><h3>Recife - PE</h3></td>
+                    <td><h3>574,72</h3></td>
+                    <td><h3>03:05hs</h3></td>
+                </tr>
+                <tr class="cor2">
+                    <td><h3>Aracaju - SE</h3></td>
+                    <td><h3>560,33</h3></td>
+                    <td><h3>02:35hs</h3></td>
+                </tr>
+                <tr class="cor1">
+                    <td><h3>Salvador - BA</h3></td>
+                    <td><h3>367,62</h3></td>
+                    <td><h3>02:10hs</h3></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
