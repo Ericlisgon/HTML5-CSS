@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(46, 46, 46);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(148, 147, 147);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header> == cabeçalho -->
+    <header>
+        <h1>Meu site</h1>
+        <!-- nav == menu -->
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <!-- main == principal conteúdo -->
+    <main>
+
+        <!-- section == sessão -->
+        <section id="assuntos">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel iure numquam aperiam fugit, quia quaerat! Est ea corporis soluta aut, nulla quod voluptatem qui vero alias rerum odit sed cumque!</p>
+        </section>
+        <section id="noticias">
+            <!-- article == artigo -->
+            <article>
+                <h2>Notícias sobre Lorem</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto laboriosam ea error vero sed asperiores est neque quidem alias nulla repellat nobis cum aut veritatis, nostrum maiores nemo enim doloremque voluptate. Autem quidem veritatis esse at incidunt odio, libero vel?</p>
+
+                <!-- Arquivo periférico -->
+                <aside>
+                    <p>Artigo escrito pelo José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <!-- footer == rodapé -->
+    <footer>
+        <p>Desenvolvido pelo Ericlis Gonçalves</p>
+    </footer>
+</body>
+</html>
