@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            /* Definindo as fontes que serão utilizadas */
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* Definindo a cor de fundo da página */
+            background-color: gray;
+
+            /* definindo a margin da página */
+            margin: 0px;
+        }
+
+        header {
+            /* Defininfo a cor de fundo do cabeçalho */
+            background-color: white;
+
+            /* Definindo o tamanho de dentro do cabeçalho */
+            padding: 10px;
+
+            /* Difinindo a margin utilizada no cabeçalho */
+            margin: 10px;
+        }
+
+        nav {
+            /* Defininfo a cor de fundo da barra de navegação */
+            background-color: rgb(90, 89, 89);
+
+            /* Definindo o tamanho de dentro do cabeçalho */
+            padding: 3px;
+
+            /* Definindo a sombra que está na barra de navegação */
+            box-shadow: 1px 5px 10px black;
+        }
+
+        nav > a {
+            /* Tirando toda estilização do parágrafo */
+            text-decoration: none;
+
+            /* Definindo a cor das letras */
+            color: white;
+
+            /* Inserindo letras 'gordas' na tag a */
+            font-weight: bold;
+
+            /* Definindo a margin da direita, fazendo com que as tags a fiquem separadas */
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            /* Inserindo estilização de _ assim que passar o mouse em cima das letras da barra de navegação */
+            text-decoration: underline;
+
+            /* Definindo a cor das letras da barra de navegação, quando passar o mouse em cima */
+            color: red;
+        }
+
+        main {
+            /* Definindo a cor de fundo do conteúdo principal */
+            background-color: white;
+
+            /* Definindo o tamanho de dentro do conteúdo principal */
+            padding: 10px;
+
+            /* Definindo o a margin de dentro do conteúdo principal */
+            margin: 10px;
+        }
+        
+        article {
+            /* Definindo a cor de fundo do artigo */
+            background-color: lightgray;
+        }
+
+        article > aside {
+            /* Definindo a cor de fundo do (filho do artigo) */
+            background-color: rgb(148, 147, 147);
+        }
+
+        footer {
+            /* Definindo a cor de fundo do rodapé */
+            background-color: black;
+            
+            /* Definindo a cor das letras do rodapé */
+            color: white;
+
+            /* Centralizando o texto no meio */
+            text-align: center;
+
+            /* Definindo o tamanho de dentro do rodapé */
+            padding: 1px;
+
+            /* Definindo o tamanho da margin do rodapé */
+            margin: 0px;
+        }
+
+        footer > p {
+            /* Definindo o tamanho da margin da tag p dentro do rodapé */
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header> == cabeçalho -->
+    <header>
+        <h1>Meu site</h1>
+        <!-- nav == menu -->
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <!-- main == principal conteúdo -->
+    <main>
+
+        <!-- section == sessão -->
+        <section id="assuntos">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel iure numquam aperiam fugit, quia quaerat! Est ea corporis soluta aut, nulla quod voluptatem qui vero alias rerum odit sed cumque!</p>
+        </section>
+        <section id="noticias">
+            <!-- article == artigo -->
+            <article>
+                <h2>Notícias sobre Lorem</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto laboriosam ea error vero sed asperiores est neque quidem alias nulla repellat nobis cum aut veritatis, nostrum maiores nemo enim doloremque voluptate. Autem quidem veritatis esse at incidunt odio, libero vel?</p>
+
+                <!-- Arquivo periférico -->
+                <aside>
+                    <p>Artigo escrito pelo José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <!-- footer == rodapé -->
+    <footer>
+        <p>Desenvolvido pelo Ericlis Gonçalves</p>
+    </footer>
+</body>
+</html>

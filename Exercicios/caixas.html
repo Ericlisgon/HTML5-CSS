@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .caixas {
+            height: 200px;
+            width: 300px;
+            display: inline-flex;
+            border: 2px solid black;
+            padding: 50px;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+        }
+
+        p {
+            display: none;
+        }
+
+        .caixas:hover > p {
+            display: block;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div class="caixas">
+            <img src="imagens/carros/Jeep_Renegade.png">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel eum dolorem enim. Sint quae architecto voluptate sunt necessitatibus beatae quam, incidunt vel sequi blanditiis sit vero molestiae exercitationem cupiditate voluptates.</p>
+        </div>
+        <div class="caixas">
+            <img src="imagens/carros/Honda_HR-V.JPG"> <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non possimus quo ipsum velit recusandae molestias iusto, nulla minima culpa a aliquam laudantium doloremque quibusdam, delectus impedit. Unde illum pariatur doloribus?</p>
+        </div>
+        <div class="caixas">
+            <img src="imagens/carros/Nissan Kicks.jpg">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non beatae sed molestias, fugiat quidem reprehenderit consequatur deleniti dolor blanditiis nulla exercitationem amet voluptate adipisci modi optio perspiciatis possimus cum maxime!</p>
+        </div>
+    </div>
+</body>
+</html>

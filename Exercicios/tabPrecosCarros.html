@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas de Carros</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cookie&family=Indie+Flower&display=swap');
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        .titulo {
+            background-color: #10403B;
+            color: black;
+            border-radius: 50px;
+            width: 800px;
+            padding: 1px;
+        }
+        
+        h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .fundo{
+            display: flex;
+            justify-content: center;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            width: 1500px;
+        }
+
+        table {
+            border-style: hidden;
+        }
+
+        th {
+            background-color: #BFBFBF;
+            color: black;
+            font-family: 'Allura', cursive;
+            font-size: 1rem;
+            padding: 5px;
+        }
+
+        fieldset {
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            background-color: #8aa6a349;
+            border-radius: 5px;
+        }
+
+        .verde {
+            background-color: rgb(132, 223, 132);
+        }
+
+        .fundoBranco {
+            background-color: white;
+        }
+
+        .vermelho {
+            color: red;
+        }
+
+        .fundoAzul {
+            background-color: rgba(95, 158, 160, 0.459);
+        }
+
+        .azul {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fundo">
+        <fieldset>
+            <legend><div class="titulo"><h1>Comparativos de SUVs selecionadas 2017</h1></div></legend>
+            <table>
+                
+                <tr>
+                    <th><h2>Montadora</h2></th>
+                    <th><img src="imagens/carros/Jeep.png"></th>
+                    <th><img src="imagens/carros/Honda.png"></th>
+                    <th><img src="imagens/carros/Nissan.png"></th>
+                    <th><img src="imagens/carros/Hyundai.png"></th>
+                </tr>
+                <tr>
+                    <td><h3>Site</h3></td>
+                    <td><a target="_blank" href="http://www.jeep.com.br">http://www.jeep.com.br</a></td>
+                    <td><a target="_blank" href="http://www.honda.com.br">http://www.honda.com.br</a></td>
+                    <td><a target="_blank" href="https://www.nissan.com.br">https://www.nissan.com.br</a></td>
+                    <td><a target="_blank" href="https://www.hyundai.com.br/">https://www.hyundai.com.br/</a></td>
+                </tr>
+                
+                <tr class="verde">
+                    <td rowspan="2"><h3>Carro</h3></td>
+                    <td>Renegade Limited 1.8 flex</td>
+                    <td>Honda HR-V 1.8 EXL</td>
+                    <td>Kicks SL 1.6 16V</td>
+                    <td>Creta Prestige 2.0</td>
+                </tr>
+                <tr class="fundoBranco">
+                    <td><a target="_blank" href="http://www.jeep.com.br"><img src="imagens/carros/Jeep_Renegade.png"></a></td>
+                    <td><a target="_blank" href="http://www.honda.com.br"><img src="imagens/carros/Honda_HR-V.JPG"></a></td>
+                    <td><a target="_blank" href="https://www.nissan.com.br"><img src="imagens/carros/Nissan Kicks.jpg"></a></td>
+                    <td><a target="_blank" href="https://www.hyundai.com.br/"><img src="imagens/carros/car_hyundai_creta.png"></a></td>
+                </tr>
+                <tr class="fundoBranco">
+                    <td>Motor</td>
+                    <td>1.8 flex 16v.</td>
+                    <td>1.8 flex 16v.</td>
+                    <td class="vermelho">1.6 flex 16v.</td>
+                    <td>2.0 flex 16v.</td>
+                </tr>
+                <tr class="fundoAzul">
+                    <td>Piloto Automático</td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                    <td><img src="imagens/carros/No.png"></td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                </tr>
+                <tr class="fundoBranco">
+                    <td>Rodas/Pneus</td>
+                    <td>liga leve, 225/55 R18</td>
+                    <td>liga leve, 215/55 R17</td>
+                    <td>liga leve, 205/55 R17</td>
+                    <td>liga leve, 215/60 R17</td>
+                </tr>
+                <tr class="fundoAzul">
+                    <td>Garantia</td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                    <td><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"><img src="imagens/carros/OK.png"></td>
+                </tr>
+                <tr class="fundoBranco">
+                    <td>Câmbio</td>
+                    <td>Automático, 6 marchas, tração dianteira</td>
+                    <td class="azul">CVT, 7 marchas, tração dianteira</td>
+                    <td>Automático, 6 marchas, tração dianteira</td>
+                    <td>Automático, 6 marchas, tração dianteira</td>
+                </tr>
+                <tr class="fundoAzul">
+                    <td>Consumo Urbano/Rodoviário</td>
+                    <td>9,6 km/l - 12 km/l</td>
+                    <td>10,4 km/l - 13,1 km/l</td>
+                    <td class="azul">10,9 km/l - 14,4 km/l</td>
+                    <td class="vermelho">8,2 km/l - 12,7 km/l</td>
+                </tr>
+                <tr class="fundoBranco">
+                    <td>Preço (Fevereiro/2017)</td>
+                    <td>R$ 97.990</td>
+                    <td class="vermelho">R$ 102.600</td>
+                    <td class="azul">R$ 91.900</td>
+                    <td>R$ 99.490</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Informações: <a href="http://quatrorodas.abril.com.br/testes/comparativo-o-confronto-entre-a-nova-geracao-de-suvs/">http://quatrorodas.abril.com.br/testes/comparativo-o-confronto-entre-a-nova-geracao-de-suvs/</a></td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="fundoBranco"><h1>Desenvolvido por: Ericlis Gonçalves</h1></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cookie&family=Indie+Flower&display=swap');
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        .titulo {
+            background-color: #10403B;
+            color: black;
+            border-radius: 50px;
+            width: 600px;
+            padding: 3px;
+        }
+        
+        h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .fundo{
+            display: flex;
+            justify-content: center;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            width: 1500px;
+        }
+
+
+        table {
+            border-style: hidden;
+        }
+
+        th {
+            background-color: #BFBFBF;
+            color: black;
+            font-family: 'Allura', cursive;
+            font-size: 1rem;
+            padding: 5px;
+        }
+
+        fieldset {
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            background-color: #8aa6a349;
+            border-radius: 5px;
+        }
+
+        td {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fundo">
+        <fieldset>
+            <legend><div class="titulo"><h1>Tabela de Preços de Venda</h1></div></legend>
+            <table>
+                <!-- Títulos -->
+                <tr>
+                    <th rowspan="2"><h2>N&ordm;</h2></th>
+                    <th rowspan="2"><h2>Categoria</h2></th>
+                    <th rowspan="2"><h2>Código</h2></th>
+                    <th rowspan="2" colspan="2"><h2>Produto</h2></th>
+                    <th colspan="2"><h2>Preço</h2></th>
+                    <th rowspan="2"><h2>QTD Estoque</h2></th>
+                </tr>
+                <tr>
+                    <th><h3>Atacado</h3></th>
+                    <th><h3>varejo</h3></th>
+                </tr>
+
+                <!-- Lista de Produtos -->
+                <tr>
+                    <td><h3>1</h3></td>
+                    <td><h3>Acessórios</h3></td>
+                    <td><h3>1510</h3></td>
+                    <td><h3><a target="_black" href="https://www.tecmundo.com.br/mouse/13956-os-10-melhores-mouses-para-o-seu-pc.htm"><img src="imagens/produtos/mouse.png"></a></h3></td>
+                    <td style="width: 50%;"><h3>Mouse para computador com fio</h3></td>
+                    <td><h3>R$ 22,00</h3></td>
+                    <td><h3>R$ 26,00</h3></td>
+                    <td><h3>32</h3></td>
+                </tr>
+
+                <tr>
+                    <td><h3>2</h3></td>
+                    <td><h3>Acessórios</h3></td>
+                    <td><h3>2311</h3></td>
+                    <td><h3><a target="_black" href="https://www.tecmundo.com.br/produto/149022-camera-fotografica-profissional-5-modelos-vendidos-amazon.htm"><img src="imagens/produtos/camera.png"></a></h3></td>
+                    <td><h3>Câmera Digital SemiProfissional</h3></td>
+                    <td><h3>R$ 720,00</h3></td>
+                    <td><h3>R$ 950,00</h3></td>
+                    <td><h3>4</h3></td>
+                </tr>
+
+                <tr>
+                    <td><h3>3</h3></td>
+                    <td><h3>Computadores</h3></td>
+                    <td><h3>2219</h3></td>
+                    <td><h3><a target="_black" href="https://os10melhores.net/melhores-notebooks"><img src="imagens/produtos/notebook.png"></a></h3></td>
+                    <td><h3>Notebook Intel i7 Memória Ram</h3></td>
+                    <td><h3>R$ 1.852,00</h3></td>
+                    <td><h3>R$ 2.370,00</h3></td>
+                    <td><h3>2</h3></td>
+                </tr>
+               
+            </table>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
